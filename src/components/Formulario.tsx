@@ -17,9 +17,8 @@ export default function Formulario() {
   }
 
   return (
-    <div className="">
-        <h2 className="text-center mt-20">Mi nuevo Formulario</h2>
-
+    <div className=" mt-20">
+        {!enviar ? (    
         <form 
           className="items-center mt-10 flex flex-col  bg-purple-200 shadow-xl rounded-lg p-10 w-96 mx-auto"
           onSubmit={handleSubmit}
@@ -39,7 +38,7 @@ export default function Formulario() {
           <label htmlFor="country" className="text-gray-700 mt-5"
           >Escribe tu ciudad:</label>
           <input
-            type="country"
+            type="text"
             id="country"
             placeholder="Escribe tu ciudad aqui"
             className="border border-gray-500 rounded-lg p-2 w-full"
@@ -72,15 +71,14 @@ export default function Formulario() {
             className="mt-5 rounded rounded-xl w-full cursor-pointer p-2 bg-purple-400 text-purple-900 font-bold shadow-xl"
           >Enviar</button>
         </form>
-
-        {enviar && (
-          
+  
+        ) : (
         <Card
           name={enviar.name}
           country={enviar.country}
           cards={enviar.cards}
         />
-        )}
+         )  } 
 
     </div>
   )
