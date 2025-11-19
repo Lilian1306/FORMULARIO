@@ -5,9 +5,9 @@ function App() {
 
 
   return (
-    <>
+    <div className=" bg-[url('/bg.avif')] min-h-screen bg-cover bg-center bg-fixed flex flex-col items-center">
       <Formulario/>
-    </>
+    </div>
   )
 }
 
