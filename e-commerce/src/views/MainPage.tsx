@@ -2,10 +2,14 @@
 
 export default function MainPage() {
   return (
-    <div className="text-4xl mt-5 gap-2">
+    <div className="relative w-full mx-auto  mt-6">
       <img
         src="/Panajachel.png"
+        alt="Mapa del lago de Atitlan"
+        className="w-full h-auto object-cover"
       />
     </div>
   )
 }
+
+// Comentario
