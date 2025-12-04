@@ -15,8 +15,8 @@ const dataButtons: DataTown[] =  [
         name: "San Lucas Tolimán",
         top: "19.5%",
         left: "13%", 
-        description: "",
-        image: ""
+        description: "San Lucas Tolimán is a municipality in the Sololá department of Guatemala. The town of 17,000 people sits on the southeastern shore of Lago de Atitlán. The population is 90–95% Highland Maya. There is...",
+        image: "/Toliman.png"
     },
       {
         id: 2,
@@ -24,7 +24,7 @@ const dataButtons: DataTown[] =  [
         top: "45.5%",
         left: "2.3%", 
         description: "",
-        image: ""
+        image: "/Palopo.png"
     },
       {
         id: 3,
@@ -32,7 +32,7 @@ const dataButtons: DataTown[] =  [
         top: "64%",
         left: "5.8%", 
         description: "",
-        image: ""
+        image: "/Catarina.png"
     },
       {
         id: 4,
@@ -40,7 +40,7 @@ const dataButtons: DataTown[] =  [
         top: "85.5%",
         left: "17%", 
         description: "",
-        image: ""
+        image: "/Panajachel1.png"
     },
       {
         id: 5,
@@ -48,7 +48,7 @@ const dataButtons: DataTown[] =  [
         top: "86%",
         left: "33.5%", 
         description: "",
-        image: ""
+        image: "/Jorge.png"
     },
       {
         id: 6,
@@ -56,7 +56,7 @@ const dataButtons: DataTown[] =  [
         top: "71%",
         left: "36.5%", 
         description: "",
-        image: ""
+        image: "/Santa Cruz.avif"
     },
       {
         id: 7,
@@ -64,7 +64,7 @@ const dataButtons: DataTown[] =  [
         top: "79%",
         left: "53%", 
         description: "",
-        image: ""
+        image: "/Jaibalito.jpg"
     },
       {
         id: 8,
@@ -72,7 +72,7 @@ const dataButtons: DataTown[] =  [
         top: "66.9%",
         left: "55.5%", 
         description: "",
-        image: ""
+        image: "/Tzununa.webp"
     },
       {
         id: 9,
@@ -80,7 +80,7 @@ const dataButtons: DataTown[] =  [
         top: "75%",
         left: "66.5%", 
         description: "",
-        image: ""
+        image: "/Marcos.png"
     },
       {
         id: 10,
@@ -88,7 +88,7 @@ const dataButtons: DataTown[] =  [
         top: "66%",
         left: "82.3%", 
         description: "",
-        image: ""
+        image: "/Pablo.png"
     },
       {
         id: 11,
@@ -96,7 +96,7 @@ const dataButtons: DataTown[] =  [
         top: "58.5%",
         left: "88%", 
         description: "",
-        image: ""
+        image: "/Juan.png"
     },
       {
         id: 12,
@@ -104,7 +104,7 @@ const dataButtons: DataTown[] =  [
         top: "45.5%",
         left: "67%", 
         description: "",
-        image: ""
+        image: "/Pedro.png"
     },
      {
         id: 13,
@@ -112,7 +112,7 @@ const dataButtons: DataTown[] =  [
         top: "27.9%",
         left: "54%", 
         description: "",
-        image: ""
+        image: "/Santiago.jpg"
     },
     
 ]
